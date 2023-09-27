@@ -1,17 +1,59 @@
 # machine_learning_project-unsupervised-learning
 
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+## Project Overview
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+This project applies unsupervised learning techniques to analyze the "Wholesale Customer Data". The goal is to uncover customer purchasing patterns, segment customers into distinct groups, and offer actionable recommendations. 
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+## Project Workflow
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+Part I: EDA - Exploratory Data Analysis & Pre-processing
+
+1. Data Import and Exploration
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+
+Part II: KMeans Clustering
+
+1. K-Means Clustering
+2. Determine the Optimal Number of Clusters
+
+Part III: Hierarchical Clustering
+
+1. Hierarchical Clustering
+2. Plot Dendrogram
+
+Part IV: PCA - Principal Component Analysis
+
+1. Dimensionality Reduction Using PCA
+
+Part V: Conclusion
+
+1. Results and Insights
+2. Future Enhancements
+
+## Dataset
+
+The dataset includes information on customer channels, regions, and spending across product categories: Fresh, Milk, Grocery, Frozen, Detergents_Paper, and Delicassen.
+
+## Key Outcomes
+
+1. Customer Segmentation: Utilizing K-Means and Hierarchical Clustering, the analysis identifies distinct customer segments.
+
+2. Feature Insights: PCA reveals critical features influencing customer spending behaviors.
+
+3. Dimensionality Reduction: The first three principal components explain 84.79% of total variance.
+
+4. Business Guidance: The analysis empowers businesses to tailor marketing and inventory strategies based on data-driven insights.
+
+## Results
+
+For a detailed project summary and insights, refer to the Unsupervised_Learning-Project.ipynb notebook.
+
+## Future Enhancements
+
+1. Fine-tune clustering parameters and preprocessing techniques for further improvements.
+
+2. Explore advanced unsupervised learning methods for complex patterns.
+
+3. Consider deployment in production environments if applicable.
 
